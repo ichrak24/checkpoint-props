@@ -1,6 +1,6 @@
 import React , {Component} from 'react'; 
 import {Layout , Header  , Navigation, Content} from 'react-mdl';
-    
+
 export default class Navbarcomponent extends Component{
     render()
 { 

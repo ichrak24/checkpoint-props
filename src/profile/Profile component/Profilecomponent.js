@@ -1,6 +1,6 @@
 import React , {Component} from 'react'; 
 
-
+import PropTypes from'prop-types';
 
 
 export default class ProfileComponent extends Component {
@@ -32,4 +32,7 @@ export default class ProfileComponent extends Component {
 }
 ProfileComponent.defaultProps ={
     name: "ichrak "
+}
+ProfileComponent.propTypes={
+    name : PropTypes.string
 }

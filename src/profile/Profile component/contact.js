@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-import PropTypes from "prop-types"; 
+import PropTypes from 'prop-types';
 import Facebook from '../images/facebook.jpg'
 import Instagram from '../images/instagram.png'
 import Linkedin from '../images/linkedin.jpg';
@@ -42,7 +42,13 @@ const Contact = props =>{
         );
     }
 Contact.defaultProps ={
-    tel :123456789 , adresse: "sidi bouzid" , email: "guesmiichrak24@gmail.com"
+    tel :123456789 , adresse: "sidi bouzid" , email: "guesmiichrak24@gmail.com"}
+    Contact.propTypes={
+        tel : PropTypes.string,
+        email: PropTypes.string ,
+        adresse: PropTypes.string
+
+    }
     
-}
-export default Contact 
+
+export default Contact ;
